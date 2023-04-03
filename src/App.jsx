@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 
-import Button from '@mui/material/Button';
-
 import './App.css';
 import reactLogo from './assets/react.svg';
 import Home from './components/Home';
