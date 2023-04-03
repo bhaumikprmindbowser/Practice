@@ -1,0 +1,36 @@
+{
+    "printWidth": 80,
+    "tabWidth": 2,
+    "trailingComma": "all",
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": true,
+    "endOfLine": "auto",
+    "htmlWhitespaceSensitivity": "css",
+    "overrides": [
+      {
+        "files": "*.css",
+        "options": {
+          "parser": "css"
+        }
+      },
+      {
+        "files": "*.scss",
+        "options": {
+          "parser": "scss"
+        }
+      }
+    ],
+    "importOrder": [
+      "^(react/(.*)$)|^(react$)",
+      "^@core/(.*)$",
+      "<THIRD_PARTY_MODULES>",
+      "^@server/(.*)$",
+      "^@ui/(.*)$",
+      "^components/(.*)$",
+      "^[./]"
+    ],
+    "importOrderSeparation": true,
+    "importOrderSortSpecifiers": true
+  }
+  
